@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lourtec - Servicios Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-1">
+                <a href="index.html"><img class="imgmenu" src="img/imgmenu.png" alt="imagen logo"></a>
+                <h1 class="logo">Lourtec</h1>
+                <ul class="nav-links">
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h2>Impulsa tu negocio con nuestros servicios web</h2>
+                <p>Ofrecemos landing pages, edición de video y tiendas en Tiendanube.</p>
+                <a href="#services" class="btn">Descubre más</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Nuestros Servicios</h2>
+                <div class="service-items">
+                    <div class="service-item">
+                        <img src="img/imglanding.jpeg" alt="Landing Pages" class="service-img">
+                        <h3>Landing Pages</h3>
+                        <p>Diseñamos páginas de aterrizaje efectivas para aumentar tus conversiones.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/video-editing.jpg" alt="Edición de Video" class="service-img">
+                        <h3>Edición de Video</h3>
+                        <p>Mejora la presencia visual de tu negocio con nuestros servicios de edición de video.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="img/tiendanube.jpg" alt="Tiendas en Tiendanube" class="service-img">
+                        <h3>Tiendas en Tiendanube</h3>
+                        <p>Crea y gestiona tu tienda online fácilmente con Tiendanube.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre Nosotros</h2>
+                <p>En Lourtec, nos dedicamos a ofrecer soluciones web innovadoras y personalizadas para ayudar a tu negocio a crecer en el entorno digital. Somos una empresa de software de Mendoza, Argentina, que hace más de 4 años que estamos en el mercado de landing pages, edición de video, y creación de tiendas.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lourtec. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
